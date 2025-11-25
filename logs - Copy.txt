@@ -1,0 +1,1412 @@
+ERROR:rl_agent_generator:🚨 A3C: Loss spike detected! -4.91e-01 vs avg -1.07e-01
+WARNING:rl_agent_generator:🔄 A3C: Auto-resetting network weights after explosions
+INFO:rl_agent_generator:🔧 A3C: Resetting policy and value network weights
+INFO:rl_agent_generator:   Reduced LR to 1.48e-04
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 1637 closed: loss_aversion_exit | P&L: -8.24% @ 5.0x ($-8.24, funding: $0.0001)
+INFO:evolutionary_paper_trading_leverage:💰 Trade closed: Agent 1666 | P&L: $-3.26 | New Capital: $73,181.21 (-18.69%)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: long_term | Agent 1666 | P&L: $-3.26 | Reward: -0.325
+INFO:rl_agent_generator:🔍 PPO: Processing 1 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 1 valid steps from 1 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=-0.0017, critic_loss=0.0001, steps=1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 1666 closed: loss_aversion_exit | P&L: -3.26% @ 5.0x ($-3.26, funding: $0.0002)
+INFO:evolutionary_paper_trading_leverage:💰 Trade closed: Agent 1636 | P&L: $-7.85 | New Capital: $73,173.36 (-18.70%)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: mid_term | Agent 1636 | P&L: $-7.85 | Reward: -0.362
+INFO:rl_agent_generator:🎓 A3C: policy_loss=1.2838, value_loss=0.0806, entropy=12.6808, valid=1/1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 1636 closed: loss_aversion_exit | P&L: -7.85% @ 5.5x ($-7.85, funding: $0.0001)
+INFO:evolutionary_paper_trading_leverage:   Cycle 20/20: 9 new leveraged trades
+INFO:evolutionary_paper_trading_leverage:🎯 Agent 1 [MASTERY]: Fitness=98.0 | WR=146/211 | P&L=$+208.78
+INFO:evolutionary_paper_trading_leverage:🎯 Agent 0 [MASTERY]: Fitness=108.0 | WR=150/218 | P&L=$+242.49
+INFO:evolutionary_paper_trading_leverage:🎯 Agent 2 [MASTERY]: Fitness=108.0 | WR=156/227 | P&L=$+279.27
+INFO:evolutionary_paper_trading_leverage:🎯 Agent 1601 [EXPLORATION]: Fitness=71.1 | WR=1/1 | P&L=$+13.06
+INFO:evolutionary_paper_trading_leverage:
+================================================================================
+INFO:evolutionary_paper_trading_leverage:💰 CENTRAL PORTFOLIO PERFORMANCE
+INFO:evolutionary_paper_trading_leverage:
+================================================================================
+INFO:evolutionary_paper_trading_leverage:   Total Capital: $73,173.36
+INFO:evolutionary_paper_trading_leverage:   Initial Capital: $90,000.00
+INFO:evolutionary_paper_trading_leverage:   Total Return: -18.70%
+INFO:evolutionary_paper_trading_leverage:   Compounding Multiplier: 0.813x
+INFO:evolutionary_paper_trading_leverage:
+INFO:evolutionary_paper_trading_leverage:   Available: $73,173.36
+INFO:evolutionary_paper_trading_leverage:   Allocated: $0.00
+INFO:evolutionary_paper_trading_leverage:   Utilization: 0.0%
+INFO:evolutionary_paper_trading_leverage:
+INFO:evolutionary_paper_trading_leverage:   Total Trades: 1738
+INFO:evolutionary_paper_trading_leverage:   Cycles Completed: 20
+INFO:evolutionary_paper_trading_leverage:
+📊 CYCLE STATISTICS:
+INFO:evolutionary_paper_trading_leverage:   Total Cycles: 20
+INFO:evolutionary_paper_trading_leverage:   Avg Return/Cycle: -10.49%
+INFO:evolutionary_paper_trading_leverage:   Best Cycle: -0.93%
+INFO:evolutionary_paper_trading_leverage:   Worst Cycle: -18.00%
+INFO:evolutionary_paper_trading_leverage:   Sharpe Ratio: -2.03
+INFO:evolutionary_paper_trading_leverage:================================================================================
+
+INFO:evolutionary_paper_trading_leverage:
+📊 GENERATION 20 STATISTICS:
+INFO:evolutionary_paper_trading_leverage:   Total trades in system: 1713
+INFO:evolutionary_paper_trading_leverage:   Closed trades: 1713
+INFO:evolutionary_paper_trading_leverage:   Open trades: 0
+INFO:evolutionary_paper_trading_leverage:
+📊 BUY/SELL DISTRIBUTION (Last 100 trades):
+INFO:evolutionary_paper_trading_leverage:   BUY:  100 trades (100.0%)
+INFO:evolutionary_paper_trading_leverage:   SELL:   0 trades (  0.0%)
+INFO:evolutionary_paper_trading_leverage:
+   By Market Regime:
+INFO:evolutionary_paper_trading_leverage:      high_volatility: BUY  100%, SELL    0% (100 trades)
+INFO:evolutionary_paper_trading_leverage:
+📊 PERFORMANCE (Last 100 trades):
+INFO:evolutionary_paper_trading_leverage:   Win Rate (>0.2%): 2.0% (2 wins)
+INFO:evolutionary_paper_trading_leverage:   Positive P&L: 3.0% (3 trades)
+INFO:evolutionary_paper_trading_leverage:   P&L Range: -13.43% to 13.06%
+INFO:evolutionary_paper_trading_leverage:   Avg P&L: -6.9714%
+INFO:evolutionary_paper_trading_leverage:   Std Dev: 3.8025%
+INFO:evolutionary_paper_trading_leverage:   Distribution: 🌟2 🎯0 ✅1 ➖0 ⚠️0 ❌0 💥97
+INFO:evolutionary_paper_trading_leverage:
+⚡ LEVERAGE STATISTICS:
+INFO:evolutionary_paper_trading_leverage:   Avg Leverage: 6.0x
+INFO:evolutionary_paper_trading_leverage:   Liquidations: 0 (0.0%)
+INFO:evolutionary_paper_trading_leverage:
+💰 PORTFOLIO:
+INFO:evolutionary_paper_trading_leverage:   Total Capital: $73,173.36
+INFO:evolutionary_paper_trading_leverage:   Total P&L: $-16,826.64 (-18.70%)
+INFO:evolutionary_paper_trading_leverage:   Available: $73,173.36
+INFO:evolutionary_paper_trading_leverage:   Trades Executed: 1738
+INFO:evolutionary_paper_trading_leverage:
+📊 PERFORMANCE BY TIMEFRAME:
+INFO:evolutionary_paper_trading_leverage:   SHORT_TERM:
+INFO:evolutionary_paper_trading_leverage:     Trades: 35
+INFO:evolutionary_paper_trading_leverage:     Win Rate: 5.7% (2 wins)
+INFO:evolutionary_paper_trading_leverage:     P&L: $-271.71
+INFO:evolutionary_paper_trading_leverage:     Avg Leverage: 7.1x
+INFO:evolutionary_paper_trading_leverage:     Liquidations: 0
+INFO:evolutionary_paper_trading_leverage:   MID_TERM:
+INFO:evolutionary_paper_trading_leverage:     Trades: 34
+INFO:evolutionary_paper_trading_leverage:     Win Rate: 0.0% (0 wins)
+INFO:evolutionary_paper_trading_leverage:     P&L: $-234.80
+INFO:evolutionary_paper_trading_leverage:     Avg Leverage: 5.4x
+INFO:evolutionary_paper_trading_leverage:     Liquidations: 0
+INFO:evolutionary_paper_trading_leverage:   LONG_TERM:
+INFO:evolutionary_paper_trading_leverage:     Trades: 31
+INFO:evolutionary_paper_trading_leverage:     Win Rate: 0.0% (0 wins)
+INFO:evolutionary_paper_trading_leverage:     P&L: $-190.62
+INFO:evolutionary_paper_trading_leverage:     Avg Leverage: 5.6x
+INFO:evolutionary_paper_trading_leverage:     Liquidations: 0
+INFO:evolutionary_paper_trading_leverage:
+🏆 TOP 3 AGENTS BY TIMEFRAME:
+INFO:evolutionary_paper_trading_leverage:
+   SHORT-TERM:
+INFO:evolutionary_paper_trading_leverage:     #1 Agent 0: Fitness=108.0 | WR=68.8% (150/218) | P&L=$+242.49
+INFO:evolutionary_paper_trading_leverage:     #2 Agent 2: Fitness=108.0 | WR=68.7% (156/227) | P&L=$+279.27
+INFO:evolutionary_paper_trading_leverage:     #3 Agent 1: Fitness=98.0 | WR=69.2% (146/211) | P&L=$+208.78
+INFO:evolutionary_paper_trading_leverage:
+   MID-TERM:
+INFO:evolutionary_paper_trading_leverage:     #1 Agent 1383: Fitness=18.3 | WR=0.0% (0/3) | P&L=$-13.37
+INFO:evolutionary_paper_trading_leverage:     #2 Agent 1551: Fitness=13.6 | WR=0.0% (0/1) | P&L=$-2.83
+INFO:evolutionary_paper_trading_leverage:     #3 Agent 1559: Fitness=13.5 | WR=0.0% (0/1) | P&L=$-2.98
+INFO:evolutionary_paper_trading_leverage:
+   LONG-TERM:
+INFO:evolutionary_paper_trading_leverage:     #1 Agent 604: Fitness=18.1 | WR=0.0% (0/3) | P&L=$-13.84
+INFO:evolutionary_paper_trading_leverage:     #2 Agent 848: Fitness=15.5 | WR=0.0% (0/3) | P&L=$-18.98
+INFO:evolutionary_paper_trading_leverage:     #3 Agent 931: Fitness=15.2 | WR=0.0% (0/3) | P&L=$-19.62
+INFO:rl_state_manager:💾 RL state saved (FORCED) - Score: 0.214
+INFO:evolutionary_paper_trading_leverage:✅ Population evolved to generation 21
+INFO:evolutionary_paper_trading_leverage:   Elite agents carried over: 9
+INFO:evolutionary_paper_trading_leverage:   New population size: 90
+INFO:evolutionary_paper_trading_leverage:   Short-term: 30
+INFO:evolutionary_paper_trading_leverage:   Mid-term: 30
+INFO:evolutionary_paper_trading_leverage:   Long-term: 30
+INFO:evolutionary_paper_trading_leverage:   Top agent: ID 0, Fitness: 108.0
+INFO:rl_state_manager:💾 RL state saved (FORCED) - Score: 0.214
+INFO:evolutionary_paper_trading_leverage:💾 End-of-generation RL state saved (Score: 0.214)
+INFO:evolutionary_paper_trading_leverage:📊 Generation 20 completed - RL Trend: learning, Best Score: 0.214
+INFO:meta_rl_enhanced2:
+🧠 META-UPDATE V5 TRIGGERED
+INFO:meta_rl_enhanced2:   Last 50 trades: 50 trades
+INFO:meta_rl_enhanced2:   Overall Win Rate: 4.0%
+INFO:meta_rl_enhanced2:   Total P&L: $-390.46
+INFO:meta_rl_enhanced2:   Sharpe: -10.00
+INFO:meta_rl_enhanced2:   Evolutionary Trades: 153220
+INFO:meta_rl_enhanced2:   SHORT_TERM: 19 trades, 10.5% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   MID_TERM: 26 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   LONG_TERM: 5 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   💡 Weak short_term performance (11% WR)
+INFO:meta_rl_enhanced2:   💡 Weak mid_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Weak long_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Evolutionary training: 384.4 trades/hour
+INFO:meta_rl_enhanced2:
+🧠 META-UPDATE V5 TRIGGERED
+INFO:meta_rl_enhanced2:   Last 50 trades: 50 trades
+INFO:meta_rl_enhanced2:   Overall Win Rate: 4.0%
+INFO:meta_rl_enhanced2:   Total P&L: $-404.92
+INFO:meta_rl_enhanced2:   Sharpe: -10.00
+INFO:meta_rl_enhanced2:   Evolutionary Trades: 153230
+INFO:meta_rl_enhanced2:   SHORT_TERM: 22 trades, 9.1% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   MID_TERM: 19 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   LONG_TERM: 9 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   💡 Weak short_term performance (9% WR)
+INFO:meta_rl_enhanced2:   💡 Weak mid_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Weak long_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Evolutionary training: 384.4 trades/hour
+INFO:meta_rl_enhanced2:
+🧠 META-UPDATE V5 TRIGGERED
+INFO:meta_rl_enhanced2:   Last 50 trades: 50 trades
+INFO:meta_rl_enhanced2:   Overall Win Rate: 4.0%
+INFO:meta_rl_enhanced2:   Total P&L: $-383.76
+INFO:meta_rl_enhanced2:   Sharpe: -10.00
+INFO:meta_rl_enhanced2:   Evolutionary Trades: 153240
+INFO:meta_rl_enhanced2:   SHORT_TERM: 17 trades, 11.8% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   MID_TERM: 16 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   LONG_TERM: 17 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   💡 Weak short_term performance (12% WR)
+INFO:meta_rl_enhanced2:   💡 Weak mid_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Weak long_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Evolutionary training: 384.4 trades/hour
+INFO:meta_rl_enhanced2:
+🧠 META-UPDATE V5 TRIGGERED
+INFO:meta_rl_enhanced2:   Last 50 trades: 50 trades
+INFO:meta_rl_enhanced2:   Overall Win Rate: 4.0%
+INFO:meta_rl_enhanced2:   Total P&L: $-374.07
+INFO:meta_rl_enhanced2:   Sharpe: -10.00
+INFO:meta_rl_enhanced2:   Evolutionary Trades: 153250
+INFO:meta_rl_enhanced2:   SHORT_TERM: 17 trades, 11.8% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   MID_TERM: 9 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   LONG_TERM: 24 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   💡 Weak short_term performance (12% WR)
+INFO:meta_rl_enhanced2:   💡 Weak mid_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Weak long_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Evolutionary training: 384.5 trades/hour
+INFO:meta_rl_enhanced2:
+🧠 META-UPDATE V5 TRIGGERED
+INFO:meta_rl_enhanced2:   Last 50 trades: 50 trades
+INFO:meta_rl_enhanced2:   Overall Win Rate: 2.0%
+INFO:meta_rl_enhanced2:   Total P&L: $-388.05
+INFO:meta_rl_enhanced2:   Sharpe: -10.00
+INFO:meta_rl_enhanced2:   Evolutionary Trades: 153260
+INFO:meta_rl_enhanced2:   SHORT_TERM: 16 trades, 6.2% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   MID_TERM: 5 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   LONG_TERM: 29 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   💡 Weak short_term performance (6% WR)
+INFO:meta_rl_enhanced2:   💡 Weak mid_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Weak long_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Evolutionary training: 384.5 trades/hour
+INFO:meta_rl_enhanced2:
+🧠 META-UPDATE V5 TRIGGERED
+INFO:meta_rl_enhanced2:   Last 50 trades: 50 trades
+INFO:meta_rl_enhanced2:   Overall Win Rate: 0.0%
+INFO:meta_rl_enhanced2:   Total P&L: $-407.52
+INFO:meta_rl_enhanced2:   Sharpe: -10.00
+INFO:meta_rl_enhanced2:   Evolutionary Trades: 153270
+INFO:meta_rl_enhanced2:   SHORT_TERM: 20 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   LONG_TERM: 30 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   💡 Weak short_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Weak long_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Evolutionary training: 384.5 trades/hour
+INFO:meta_rl_enhanced2:
+🧠 META-UPDATE V5 TRIGGERED
+INFO:meta_rl_enhanced2:   Last 50 trades: 50 trades
+INFO:meta_rl_enhanced2:   Overall Win Rate: 0.0%
+INFO:meta_rl_enhanced2:   Total P&L: $-387.92
+INFO:meta_rl_enhanced2:   Sharpe: -10.00
+INFO:meta_rl_enhanced2:   Evolutionary Trades: 153280
+INFO:meta_rl_enhanced2:   SHORT_TERM: 20 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   LONG_TERM: 26 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   💡 Weak short_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Weak long_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Evolutionary training: 384.5 trades/hour
+INFO:meta_rl_enhanced2:
+🧠 META-UPDATE V5 TRIGGERED
+INFO:meta_rl_enhanced2:   Last 50 trades: 50 trades
+INFO:meta_rl_enhanced2:   Overall Win Rate: 0.0%
+INFO:meta_rl_enhanced2:   Total P&L: $-392.57
+INFO:meta_rl_enhanced2:   Sharpe: -10.00
+INFO:meta_rl_enhanced2:   Evolutionary Trades: 153290
+INFO:meta_rl_enhanced2:   SHORT_TERM: 22 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   MID_TERM: 9 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   LONG_TERM: 19 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   💡 Weak short_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Weak mid_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Weak long_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Evolutionary training: 384.6 trades/hour
+INFO:meta_rl_enhanced2:
+🧠 META-UPDATE V5 TRIGGERED
+INFO:meta_rl_enhanced2:   Last 50 trades: 50 trades
+INFO:meta_rl_enhanced2:   Overall Win Rate: 0.0%
+INFO:meta_rl_enhanced2:   Total P&L: $-400.69
+INFO:meta_rl_enhanced2:   Sharpe: -10.00
+INFO:meta_rl_enhanced2:   Evolutionary Trades: 153300
+INFO:meta_rl_enhanced2:   SHORT_TERM: 23 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   MID_TERM: 16 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   LONG_TERM: 11 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   💡 Weak short_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Weak mid_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Weak long_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Evolutionary training: 384.6 trades/hour
+INFO:meta_rl_enhanced2:
+🧠 META-UPDATE V5 TRIGGERED
+INFO:meta_rl_enhanced2:   Last 50 trades: 50 trades
+INFO:meta_rl_enhanced2:   Overall Win Rate: 2.0%
+INFO:meta_rl_enhanced2:   Total P&L: $-363.05
+INFO:meta_rl_enhanced2:   Sharpe: -10.00
+INFO:meta_rl_enhanced2:   Evolutionary Trades: 153310
+INFO:meta_rl_enhanced2:   SHORT_TERM: 23 trades, 4.3% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   MID_TERM: 20 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   LONG_TERM: 7 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   💡 Weak short_term performance (4% WR)
+INFO:meta_rl_enhanced2:   💡 Weak mid_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Weak long_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Evolutionary training: 384.6 trades/hour
+INFO:__main__:🔄 Fed 100 new LEVERAGED trades to Meta-RL
+INFO:__main__:
+================================================================================
+
+💰 ALLOCATION REQUEST: Agent 7477
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $8407.58
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $210.15
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $525.38
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7477
+INFO:evolutionary_paper_trading_leverage:   Utilization: 20.9%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7477 (mid_term): SELL BTC @ $87981.5000 [9.9x, Liq: $94207.0453] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #4: Agent 7477 → BTC
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=27.7% × 0.66 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.045 → 0.087
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7481
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $8307.58
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $210.15
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $525.38
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7481
+INFO:evolutionary_paper_trading_leverage:   Utilization: 21.9%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7481 (mid_term): SELL BTC @ $87981.5000 [10.3x, Liq: $93880.3123] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #5: Agent 7481 → BTC
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=35.0% × 0.67 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.045 → 0.083
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7431
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $8207.58
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $210.15
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $525.38
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7431
+INFO:evolutionary_paper_trading_leverage:   Utilization: 22.8%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7431 (short_term): SELL ETH @ $2942.0500 [10.8x, Liq: $3126.8766] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #6: Agent 7431 → ETH
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=35.0% × 0.67 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.045 → 0.083
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7435
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $8107.58
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $210.15
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $525.38
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7435
+INFO:evolutionary_paper_trading_leverage:   Utilization: 23.8%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7435 (short_term): SELL ETH @ $2942.0500 [10.8x, Liq: $3126.8766] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #7: Agent 7435 → ETH
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=35.0% × 0.67 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.045 → 0.083
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7441
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $8007.58
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $210.15
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $525.38
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7441
+INFO:evolutionary_paper_trading_leverage:   Utilization: 24.7%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7441 (short_term): SELL ETH @ $2942.0500 [10.8x, Liq: $3126.8766] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #8: Agent 7441 → ETH
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=35.0% × 0.67 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.045 → 0.083
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7454
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $7907.58
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $210.15
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $525.38
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7454
+INFO:evolutionary_paper_trading_leverage:   Utilization: 25.7%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7454 (short_term): SELL ETH @ $2942.0500 [10.8x, Liq: $3126.8766] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #9: Agent 7454 → ETH
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=35.0% × 0.66 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.045 → 0.083
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7455
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $7807.58
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $210.15
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $525.38
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7455
+INFO:evolutionary_paper_trading_leverage:   Utilization: 26.6%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7455 (short_term): SELL ETH @ $2942.0500 [10.7x, Liq: $3128.7808] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #10: Agent 7455 → ETH
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=29.0% × 0.76 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.037 → 0.190
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7493
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $7707.58
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $210.15
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $525.38
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7493
+INFO:evolutionary_paper_trading_leverage:   Utilization: 27.6%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7493 (long_term): BUY XRP @ $2.2534 [5.0x, Liq: $1.8704] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #11: Agent 7493 → XRP
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=27.5% × 0.76 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.037 → 0.190
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7497
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $7607.58
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $210.15
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $525.38
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7497
+INFO:evolutionary_paper_trading_leverage:   Utilization: 28.6%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7497 (long_term): BUY XRP @ $2.2534 [5.0x, Liq: $1.8704] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #12: Agent 7497 → XRP
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=35.0% × 0.76 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.037 → 0.190
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7505
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $7507.58
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $210.15
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $525.38
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7505
+INFO:evolutionary_paper_trading_leverage:   Utilization: 29.5%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7505 (long_term): BUY XRP @ $2.2534 [5.0x, Liq: $1.8704] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #13: Agent 7505 → XRP
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=27.0% × 0.76 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.037 → 0.190
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7507
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $7407.58
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $210.15
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $525.38
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7507
+INFO:evolutionary_paper_trading_leverage:   Utilization: 30.5%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7507 (long_term): BUY XRP @ $2.2534 [5.0x, Liq: $1.8704] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #14: Agent 7507 → XRP
+INFO:rl_agent_generator:🎯 RL FEEDBACK: short_term | Agent 7430 | P&L: $-10.37 | Reward: -0.382
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7430 closed: loss_aversion_exit | P&L: -10.37% @ 10.8x ($-10.37, funding: $0.0000)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: short_term | Agent 7434 | P&L: $-17.50 | Reward: -0.435
+INFO:evolutionary_paper_trading_leverage:
+================================================================================
+INFO:evolutionary_paper_trading_leverage:🎓 TRIGGERING RL TRAINING CHECKPOINT
+INFO:evolutionary_paper_trading_leverage:================================================================================
+INFO:evolutionary_paper_trading_leverage:   Trades since last update: 10
+INFO:evolutionary_paper_trading_leverage:   Total trades in system: 7610
+INFO:evolutionary_paper_trading_leverage:
+🎓 RL TRAINING CHECKPOINT (Total Trades: 7610)
+INFO:evolutionary_paper_trading_leverage:   DQN: 67 trades processed, loss=3.1151
+INFO:rl_agent_generator:🎓 A3C: policy_loss=-0.1023, value_loss=4.0002, entropy=12.3195, valid=66/66
+INFO:evolutionary_paper_trading_leverage:   A3C: 66 trajectories trained, loss=1.8978
+INFO:rl_agent_generator:🔍 PPO: Processing 67 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 67 valid steps from 67 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=0.2813, critic_loss=0.9851, steps=67
+INFO:evolutionary_paper_trading_leverage:   PPO: 67 trajectories trained
+INFO:rl_state_manager:💾 RL state saved (FORCED) - Score: 0.200
+INFO:evolutionary_paper_trading_leverage:💾 RL state saved after training (Score: 0.200)
+INFO:evolutionary_paper_trading_leverage:   ✅ Training completed in 0.11s
+INFO:evolutionary_paper_trading_leverage:================================================================================
+
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7434 closed: loss_aversion_exit | P&L: -17.50% @ 10.8x ($-17.50, funding: $0.0000)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: short_term | Agent 7435 | P&L: $-19.59 | Reward: -0.449
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7435 closed: loss_aversion_exit | P&L: -19.59% @ 10.8x ($-19.59, funding: $0.0000)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: short_term | Agent 7436 | P&L: $-19.29 | Reward: -0.447
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7436 closed: loss_aversion_exit | P&L: -19.29% @ 10.8x ($-19.29, funding: $0.0001)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: short_term | Agent 7442 | P&L: $-16.16 | Reward: -0.425
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7442 closed: loss_aversion_exit | P&L: -16.16% @ 10.8x ($-16.16, funding: $0.0000)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: short_term | Agent 7452 | P&L: $-6.95 | Reward: -0.355
+INFO:rl_agent_generator:🎓 DQN Training: loss=761.508606, Q_mean=-0.909, epsilon=0.150, target_updates=223
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7452 closed: loss_aversion_exit | P&L: -6.95% @ 10.8x ($-6.95, funding: $0.0000)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: mid_term | Agent 7458 | P&L: $-7.63 | Reward: -0.361
+WARNING:rl_agent_generator:⚠️ A3C: Loss variance too high, using smoothed value
+INFO:rl_agent_generator:🎓 A3C: policy_loss=-0.0703, value_loss=0.0002, entropy=12.3262, valid=1/1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7458 closed: loss_aversion_exit | P&L: -7.63% @ 7.7x ($-7.63, funding: $-0.0000)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: mid_term | Agent 7467 | P&L: $-15.88 | Reward: -0.423
+WARNING:rl_agent_generator:⚠️ A3C: Loss variance too high, using smoothed value
+INFO:rl_agent_generator:🎓 A3C: policy_loss=-0.0476, value_loss=0.0001, entropy=12.3407, valid=1/1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7467 closed: loss_aversion_exit | P&L: -15.88% @ 9.4x ($-15.88, funding: $-0.0000)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: mid_term | Agent 7468 | P&L: $-11.81 | Reward: -0.393
+WARNING:rl_agent_generator:⚠️ A3C: Loss variance too high, using smoothed value
+INFO:rl_agent_generator:🎓 A3C: policy_loss=-0.0194, value_loss=0.0000, entropy=12.3610, valid=1/1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7468 closed: loss_aversion_exit | P&L: -11.81% @ 9.9x ($-11.81, funding: $-0.0000)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: mid_term | Agent 7477 | P&L: $-6.58 | Reward: -0.352
+WARNING:rl_agent_generator:⚠️ A3C: Loss variance too high, using smoothed value
+INFO:rl_agent_generator:🎓 A3C: policy_loss=0.0086, value_loss=0.0000, entropy=12.3820, valid=1/1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7477 closed: loss_aversion_exit | P&L: -6.58% @ 9.9x ($-6.58, funding: $-0.0000)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: mid_term | Agent 7483 | P&L: $-3.81 | Reward: -0.330
+ERROR:rl_agent_generator:🚨 A3C: Loss spike detected! 2.81e-02 vs avg -2.01e-02
+WARNING:rl_agent_generator:🔄 A3C: Auto-resetting network weights after explosions
+INFO:rl_agent_generator:🔧 A3C: Resetting policy and value network weights
+INFO:rl_agent_generator:   Reduced LR to 4.70e-05
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7483 closed: loss_aversion_exit | P&L: -3.81% @ 9.5x ($-3.81, funding: $-0.0001)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: long_term | Agent 7484 | P&L: $-5.21 | Reward: -0.341
+INFO:rl_agent_generator:🔍 PPO: Processing 1 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 1 valid steps from 1 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=-0.0005, critic_loss=0.0000, steps=1
+INFO:evolutionary_paper_trading_leverage:
+================================================================================
+INFO:evolutionary_paper_trading_leverage:🎓 TRIGGERING RL TRAINING CHECKPOINT
+INFO:evolutionary_paper_trading_leverage:================================================================================
+INFO:evolutionary_paper_trading_leverage:   Trades since last update: 10
+INFO:evolutionary_paper_trading_leverage:   Total trades in system: 7620
+INFO:evolutionary_paper_trading_leverage:
+🎓 RL TRAINING CHECKPOINT (Total Trades: 7620)
+INFO:evolutionary_paper_trading_leverage:   DQN: 66 trades processed, loss=3.1911
+WARNING:rl_agent_generator:⚠️ Grad spike detected (1.10e+00), tightening clip to 0.05
+INFO:rl_agent_generator:🎓 A3C: policy_loss=-1.1297, value_loss=4.0589, entropy=12.6538, valid=69/69
+INFO:evolutionary_paper_trading_leverage:   A3C: 69 trajectories trained, loss=0.8997
+INFO:rl_agent_generator:🔍 PPO: Processing 65 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 65 valid steps from 65 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=0.2819, critic_loss=0.9846, steps=65
+INFO:evolutionary_paper_trading_leverage:   PPO: 65 trajectories trained
+INFO:rl_state_manager:💾 RL state saved (FORCED) - Score: 0.200
+INFO:evolutionary_paper_trading_leverage:💾 RL state saved after training (Score: 0.200)
+INFO:evolutionary_paper_trading_leverage:   ✅ Training completed in 0.12s
+INFO:evolutionary_paper_trading_leverage:================================================================================
+
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7484 closed: loss_aversion_exit | P&L: -5.21% @ 5.0x ($-5.21, funding: $0.0000)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: long_term | Agent 7500 | P&L: $-6.87 | Reward: -0.355
+INFO:rl_agent_generator:🔍 PPO: Processing 1 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 1 valid steps from 1 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=0.0134, critic_loss=0.0001, steps=1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7500 closed: loss_aversion_exit | P&L: -6.87% @ 5.0x ($-6.87, funding: $0.0000)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: long_term | Agent 7507 | P&L: $-8.47 | Reward: -0.367
+INFO:rl_agent_generator:🔍 PPO: Processing 1 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 1 valid steps from 1 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=0.0106, critic_loss=0.0001, steps=1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7507 closed: loss_aversion_exit | P&L: -8.47% @ 5.0x ($-8.47, funding: $0.0000)
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=21.6% × 0.66 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.045 → 0.088
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7466
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $8551.48
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $207.03
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $517.57
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7466
+INFO:evolutionary_paper_trading_leverage:   Utilization: 18.4%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7466 (mid_term): SELL BTC @ $87981.5000 [10.2x, Liq: $93981.0859] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #1: Agent 7466 → BTC
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=35.0% × 0.67 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.045 → 0.083
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7446
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $8451.48
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $207.03
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $517.57
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7446
+INFO:evolutionary_paper_trading_leverage:   Utilization: 19.3%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7446 (short_term): SELL ETH @ $2942.0500 [10.8x, Liq: $3126.8766] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #2: Agent 7446 → ETH
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=35.0% × 0.67 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.045 → 0.083
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7449
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $8351.48
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $207.03
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $517.57
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7449
+INFO:evolutionary_paper_trading_leverage:   Utilization: 20.3%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7449 (short_term): SELL ETH @ $2942.0500 [10.8x, Liq: $3126.8766] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #3: Agent 7449 → ETH
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=20.9% × 0.76 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.037 → 0.190
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7494
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $8251.48
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $207.03
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $517.57
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7494
+INFO:evolutionary_paper_trading_leverage:   Utilization: 21.3%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7494 (long_term): BUY XRP @ $2.2534 [5.0x, Liq: $1.8704] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #4: Agent 7494 → XRP
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=29.0% × 0.76 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.037 → 0.190
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7499
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $8151.48
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $207.03
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $517.57
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7499
+INFO:evolutionary_paper_trading_leverage:   Utilization: 22.2%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7499 (long_term): BUY XRP @ $2.2534 [5.0x, Liq: $1.8704] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #5: Agent 7499 → XRP
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=27.0% × 0.76 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.037 → 0.190
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7502
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $8051.48
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $207.03
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $517.57
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7502
+INFO:evolutionary_paper_trading_leverage:   Utilization: 23.2%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7502 (long_term): BUY XRP @ $2.2534 [5.0x, Liq: $1.8704] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #6: Agent 7502 → XRP
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=27.0% × 0.76 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.037 → 0.190
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7503
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $7951.48
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $207.03
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $517.57
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7503
+INFO:evolutionary_paper_trading_leverage:   Utilization: 24.2%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7503 (long_term): BUY XRP @ $2.2534 [5.0x, Liq: $1.8704] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #7: Agent 7503 → XRP
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=29.2% × 0.76 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.037 → 0.190
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7506
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $7851.48
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $207.03
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $517.57
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7506
+INFO:evolutionary_paper_trading_leverage:   Utilization: 25.1%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7506 (long_term): BUY XRP @ $2.2534 [5.0x, Liq: $1.8704] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #8: Agent 7506 → XRP
+INFO:rl_agent_generator:🎯 RL FEEDBACK: short_term | Agent 7431 | P&L: $-19.73 | Reward: -0.450
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7431 closed: loss_aversion_exit | P&L: -19.73% @ 10.8x ($-19.73, funding: $0.0000)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: short_term | Agent 7455 | P&L: $-18.54 | Reward: -0.442
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7455 closed: loss_aversion_exit | P&L: -18.54% @ 10.7x ($-18.54, funding: $0.0000)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: mid_term | Agent 7472 | P&L: $-21.33 | Reward: -0.521
+WARNING:rl_agent_generator:⚠️ A3C: Loss variance too high, using smoothed value
+WARNING:rl_agent_generator:⚠️ Grad spike detected (1.25e+00), tightening clip to 0.05
+INFO:rl_agent_generator:🎓 A3C: policy_loss=-1.2699, value_loss=0.0574, entropy=12.6599, valid=1/1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7472 closed: loss_aversion_exit | P&L: -21.33% @ 11.6x ($-21.33, funding: $-0.0001)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: mid_term | Agent 7476 | P&L: $-4.00 | Reward: -0.332
+ERROR:rl_agent_generator:🚨 A3C: Loss spike detected! -1.11e+00 vs avg -2.83e-01
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7476 closed: loss_aversion_exit | P&L: -4.00% @ 9.9x ($-4.00, funding: $-0.0000)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: long_term | Agent 7494 | P&L: $-6.97 | Reward: -0.355
+INFO:rl_agent_generator:🔍 PPO: Processing 1 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 1 valid steps from 1 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=-0.0018, critic_loss=0.0001, steps=1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7494 closed: loss_aversion_exit | P&L: -6.97% @ 5.0x ($-6.97, funding: $0.0000)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: long_term | Agent 7496 | P&L: $-3.70 | Reward: -0.326
+INFO:rl_agent_generator:🔍 PPO: Processing 1 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 1 valid steps from 1 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=-0.0036, critic_loss=0.0005, steps=1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7496 closed: loss_aversion_exit | P&L: -3.70% @ 5.0x ($-3.70, funding: $0.0000)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: long_term | Agent 7503 | P&L: $-7.01 | Reward: -0.356
+INFO:rl_agent_generator:🔍 PPO: Processing 1 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 1 valid steps from 1 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=0.0256, critic_loss=0.0005, steps=1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7503 closed: loss_aversion_exit | P&L: -7.01% @ 5.0x ($-7.01, funding: $0.0000)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: long_term | Agent 7505 | P&L: $-5.02 | Reward: -0.339
+INFO:rl_agent_generator:🔍 PPO: Processing 1 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 1 valid steps from 1 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=-0.0002, critic_loss=0.0000, steps=1
+INFO:evolutionary_paper_trading_leverage:
+================================================================================
+INFO:evolutionary_paper_trading_leverage:🎓 TRIGGERING RL TRAINING CHECKPOINT
+INFO:evolutionary_paper_trading_leverage:================================================================================
+INFO:evolutionary_paper_trading_leverage:   Trades since last update: 10
+INFO:evolutionary_paper_trading_leverage:   Total trades in system: 7630
+INFO:evolutionary_paper_trading_leverage:
+🎓 RL TRAINING CHECKPOINT (Total Trades: 7630)
+INFO:evolutionary_paper_trading_leverage:   DQN: 66 trades processed, loss=0.6172
+ERROR:rl_agent_generator:🚨 A3C: Loss spike detected! 9.52e-01 vs avg -9.47e-02
+INFO:evolutionary_paper_trading_leverage:   A3C: 63 trajectories trained, loss=0.0000
+INFO:rl_agent_generator:🔍 PPO: Processing 71 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 71 valid steps from 71 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=0.2778, critic_loss=0.9859, steps=71
+INFO:evolutionary_paper_trading_leverage:   PPO: 71 trajectories trained
+INFO:rl_state_manager:💾 RL state saved (FORCED) - Score: 0.200
+INFO:evolutionary_paper_trading_leverage:💾 RL state saved after training (Score: 0.200)
+INFO:evolutionary_paper_trading_leverage:   ✅ Training completed in 0.09s
+INFO:evolutionary_paper_trading_leverage:================================================================================
+
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7505 closed: loss_aversion_exit | P&L: -5.02% @ 5.0x ($-5.02, funding: $0.0000)
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=20.1% × 0.76 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.037 → 0.190
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7504
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $8465.17
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $205.30
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $513.26
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7504
+INFO:evolutionary_paper_trading_leverage:   Utilization: 18.5%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7504 (long_term): BUY XRP @ $2.2534 [5.0x, Liq: $1.8704] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #1: Agent 7504 → XRP
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=27.0% × 0.76 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.037 → 0.190
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7508
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $8365.17
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $205.30
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $513.26
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7508
+INFO:evolutionary_paper_trading_leverage:   Utilization: 19.5%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7508 (long_term): BUY XRP @ $2.2534 [5.0x, Liq: $1.8704] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #2: Agent 7508 → XRP
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=27.0% × 0.76 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.037 → 0.190
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7510
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $8265.17
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $205.30
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $513.26
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7510
+INFO:evolutionary_paper_trading_leverage:   Utilization: 20.5%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7510 (long_term): BUY XRP @ $2.2534 [5.0x, Liq: $1.8704] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #3: Agent 7510 → XRP
+INFO:rl_agent_generator:🎯 RL FEEDBACK: mid_term | Agent 7465 | P&L: $-14.74 | Reward: -0.415
+ERROR:rl_agent_generator:🚨 A3C: Loss spike detected! -1.12e+00 vs avg -3.24e-01
+WARNING:rl_agent_generator:🔄 A3C: Auto-resetting network weights after explosions
+INFO:rl_agent_generator:🔧 A3C: Resetting policy and value network weights
+INFO:rl_agent_generator:   Reduced LR to 4.67e-05
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7465 closed: loss_aversion_exit | P&L: -14.74% @ 9.8x ($-14.74, funding: $-0.0000)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: mid_term | Agent 7480 | P&L: $-16.85 | Reward: -0.430
+ERROR:rl_agent_generator:🚨 A3C: Loss spike detected! -1.07e+00 vs avg -7.17e-01
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7480 closed: loss_aversion_exit | P&L: -16.85% @ 9.8x ($-16.85, funding: $-0.0001)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: long_term | Agent 7502 | P&L: $-2.65 | Reward: -0.306
+INFO:rl_agent_generator:🔍 PPO: Processing 1 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 1 valid steps from 1 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=-0.0041, critic_loss=0.0006, steps=1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7502 closed: loss_aversion_exit | P&L: -2.65% @ 5.0x ($-2.65, funding: $0.0000)
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=21.6% × 0.66 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.045 → 0.092
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7461
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $8430.94
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $204.62
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $511.55
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7461
+INFO:evolutionary_paper_trading_leverage:   Utilization: 18.6%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7461 (mid_term): SELL BTC @ $87981.5000 [9.8x, Liq: $94287.1714] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #1: Agent 7461 → BTC
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=21.5% × 0.66 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.045 → 0.096
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7473
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $8330.94
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $204.62
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $511.55
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7473
+INFO:evolutionary_paper_trading_leverage:   Utilization: 19.5%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7473 (mid_term): SELL BTC @ $87981.5000 [9.4x, Liq: $94693.2575] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #2: Agent 7473 → BTC
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=21.6% × 0.65 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.036 → 0.102
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7474
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $8230.94
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $204.62
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $511.55
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7474
+INFO:evolutionary_paper_trading_leverage:   Utilization: 20.5%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7474 (mid_term): SELL BTC @ $87981.5000 [9.0x, Liq: $95168.9328] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #3: Agent 7474 → BTC
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=35.0% × 0.67 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.045 → 0.083
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7450
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $8130.94
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $204.62
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $511.55
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7450
+INFO:evolutionary_paper_trading_leverage:   Utilization: 21.5%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7450 (short_term): SELL ETH @ $2942.0500 [10.8x, Liq: $3126.8766] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #4: Agent 7450 → ETH
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=35.0% × 0.67 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.045 → 0.083
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7451
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $8030.94
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $204.62
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $511.55
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7451
+INFO:evolutionary_paper_trading_leverage:   Utilization: 22.5%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7451 (short_term): SELL ETH @ $2942.0500 [10.8x, Liq: $3126.8766] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #5: Agent 7451 → ETH
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=29.0% × 0.76 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.037 → 0.190
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7490
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $7930.94
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $204.62
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $511.55
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7490
+INFO:evolutionary_paper_trading_leverage:   Utilization: 23.5%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7490 (long_term): BUY XRP @ $2.2534 [5.0x, Liq: $1.8704] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #6: Agent 7490 → XRP
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=30.6% × 0.76 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.037 → 0.190
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7495
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $7830.94
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $204.62
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $511.55
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7495
+INFO:evolutionary_paper_trading_leverage:   Utilization: 24.4%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7495 (long_term): BUY XRP @ $2.2534 [5.0x, Liq: $1.8704] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #7: Agent 7495 → XRP
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=27.0% × 0.76 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.037 → 0.190
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7509
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $7730.94
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $204.62
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $511.55
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7509
+INFO:evolutionary_paper_trading_leverage:   Utilization: 25.4%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7509 (long_term): BUY XRP @ $2.2534 [5.0x, Liq: $1.8704] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #8: Agent 7509 → XRP
+INFO:rl_agent_generator:🎯 RL FEEDBACK: short_term | Agent 7441 | P&L: $-16.52 | Reward: -0.428
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7441 closed: loss_aversion_exit | P&L: -16.52% @ 10.8x ($-16.52, funding: $0.0001)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: short_term | Agent 7449 | P&L: $-16.57 | Reward: -0.428
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7449 closed: loss_aversion_exit | P&L: -16.57% @ 10.8x ($-16.57, funding: $0.0000)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: mid_term | Agent 7459 | P&L: $-15.95 | Reward: -0.423
+ERROR:rl_agent_generator:🚨 A3C: Loss spike detected! -1.03e+00 vs avg -6.76e-01
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7459 closed: loss_aversion_exit | P&L: -15.95% @ 9.6x ($-15.95, funding: $-0.0001)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: mid_term | Agent 7466 | P&L: $-4.49 | Reward: -0.336
+ERROR:rl_agent_generator:🚨 A3C: Loss spike detected! -1.07e+00 vs avg -6.67e-01
+WARNING:rl_agent_generator:🔄 A3C: Auto-resetting network weights after explosions
+INFO:rl_agent_generator:🔧 A3C: Resetting policy and value network weights
+INFO:rl_agent_generator:   Reduced LR to 2.34e-05
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7466 closed: loss_aversion_exit | P&L: -4.49% @ 10.2x ($-4.49, funding: $-0.0000)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: mid_term | Agent 7473 | P&L: $-9.25 | Reward: -0.373
+ERROR:rl_agent_generator:🚨 A3C: Loss spike detected! 1.02e+00 vs avg -6.54e-01
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7473 closed: loss_aversion_exit | P&L: -9.25% @ 9.4x ($-9.25, funding: $-0.0000)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: mid_term | Agent 7474 | P&L: $-6.70 | Reward: -0.353
+ERROR:rl_agent_generator:🚨 A3C: Loss spike detected! 9.80e-01 vs avg -2.34e-01
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7474 closed: loss_aversion_exit | P&L: -6.70% @ 9.0x ($-6.70, funding: $-0.0000)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: mid_term | Agent 7481 | P&L: $-16.16 | Reward: -0.425
+INFO:rl_agent_generator:   A3C Stats: entropy_coef=0.0010, grad_clip=0.050, lr=9.33e-05
+INFO:rl_agent_generator:🎓 A3C: policy_loss=1.0939, value_loss=0.0435, entropy=12.7840, valid=1/1
+INFO:evolutionary_paper_trading_leverage:
+================================================================================
+INFO:evolutionary_paper_trading_leverage:🎓 TRIGGERING RL TRAINING CHECKPOINT
+INFO:evolutionary_paper_trading_leverage:================================================================================
+INFO:evolutionary_paper_trading_leverage:   Trades since last update: 10
+INFO:evolutionary_paper_trading_leverage:   Total trades in system: 7640
+INFO:evolutionary_paper_trading_leverage:
+🎓 RL TRAINING CHECKPOINT (Total Trades: 7640)
+INFO:evolutionary_paper_trading_leverage:   DQN: 62 trades processed, loss=0.7171
+INFO:rl_agent_generator:🎓 A3C: policy_loss=0.9000, value_loss=4.0430, entropy=12.7829, valid=66/66
+INFO:evolutionary_paper_trading_leverage:   A3C: 66 trajectories trained, loss=2.9215
+INFO:rl_agent_generator:🔍 PPO: Processing 72 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 72 valid steps from 72 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=0.2772, critic_loss=0.9862, steps=72
+INFO:evolutionary_paper_trading_leverage:   PPO: 72 trajectories trained
+INFO:rl_state_manager:💾 RL state saved (FORCED) - Score: 0.200
+INFO:evolutionary_paper_trading_leverage:💾 RL state saved after training (Score: 0.200)
+INFO:evolutionary_paper_trading_leverage:   ✅ Training completed in 0.12s
+INFO:evolutionary_paper_trading_leverage:================================================================================
+
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7481 closed: loss_aversion_exit | P&L: -16.16% @ 10.3x ($-16.16, funding: $-0.0001)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: long_term | Agent 7490 | P&L: $-4.46 | Reward: -0.334
+INFO:rl_agent_generator:🔍 PPO: Processing 1 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 1 valid steps from 1 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=0.0270, critic_loss=0.0004, steps=1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7490 closed: loss_aversion_exit | P&L: -4.46% @ 5.0x ($-4.46, funding: $0.0000)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: long_term | Agent 7493 | P&L: $-4.34 | Reward: -0.333
+INFO:rl_agent_generator:🔍 PPO: Processing 1 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 1 valid steps from 1 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=0.0044, critic_loss=0.0001, steps=1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7493 closed: loss_aversion_exit | P&L: -4.34% @ 5.0x ($-4.34, funding: $0.0001)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: long_term | Agent 7497 | P&L: $-6.80 | Reward: -0.354
+INFO:rl_agent_generator:🔍 PPO: Processing 1 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 1 valid steps from 1 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=0.0096, critic_loss=0.0001, steps=1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7497 closed: loss_aversion_exit | P&L: -6.80% @ 5.0x ($-6.80, funding: $0.0001)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: long_term | Agent 7504 | P&L: $-8.53 | Reward: -0.368
+INFO:rl_agent_generator:🔍 PPO: Processing 1 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 1 valid steps from 1 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=0.0068, critic_loss=0.0001, steps=1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7504 closed: loss_aversion_exit | P&L: -8.53% @ 5.0x ($-8.53, funding: $0.0000)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: long_term | Agent 7508 | P&L: $-4.57 | Reward: -0.335
+INFO:rl_agent_generator:🔍 PPO: Processing 1 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 1 valid steps from 1 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=-0.0038, critic_loss=0.0005, steps=1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7508 closed: loss_aversion_exit | P&L: -4.57% @ 5.0x ($-4.57, funding: $0.0000)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: long_term | Agent 7509 | P&L: $-6.58 | Reward: -0.352
+INFO:rl_agent_generator:🔍 PPO: Processing 1 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 1 valid steps from 1 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=0.0058, critic_loss=0.0001, steps=1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7509 closed: loss_aversion_exit | P&L: -6.58% @ 5.0x ($-6.58, funding: $0.0000)
+INFO:evolutionary_paper_trading_leverage:🎯 Agent 7440 [EXPLORATION]: Fitness=62.1 | WR=1/1 | P&L=$+8.57
+INFO:rl_agent_generator:🎯 RL FEEDBACK: short_term | Agent 7440 | P&L: $+8.57 | Reward: 0.420
+INFO:evolutionary_paper_trading_leverage:         🌟 BIG_WIN Agent 7440 closed: time_exit | P&L: +8.57% @ 10.8x ($+8.57, funding: $0.0001)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: short_term | Agent 7443 | P&L: $-12.58 | Reward: -0.399
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7443 closed: loss_aversion_exit | P&L: -12.58% @ 10.8x ($-12.58, funding: $0.0001)
+INFO:evolutionary_paper_trading_leverage:🎯 Agent 7445 [EXPLORATION]: Fitness=69.9 | WR=1/1 | P&L=$+12.46
+INFO:rl_agent_generator:🎯 RL FEEDBACK: short_term | Agent 7445 | P&L: $+12.46 | Reward: 0.450
+INFO:rl_agent_generator:🎓 DQN Training: loss=0.654930, Q_mean=-0.932, epsilon=0.150, target_updates=223
+INFO:evolutionary_paper_trading_leverage:         🌟 BIG_WIN Agent 7445 closed: time_exit | P&L: +12.46% @ 10.8x ($+12.46, funding: $0.0001)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: short_term | Agent 7451 | P&L: $-20.48 | Reward: -0.515
+INFO:evolutionary_paper_trading_leverage:
+================================================================================
+INFO:evolutionary_paper_trading_leverage:🎓 TRIGGERING RL TRAINING CHECKPOINT
+INFO:evolutionary_paper_trading_leverage:================================================================================
+INFO:evolutionary_paper_trading_leverage:   Trades since last update: 10
+INFO:evolutionary_paper_trading_leverage:   Total trades in system: 7650
+INFO:evolutionary_paper_trading_leverage:
+🎓 RL TRAINING CHECKPOINT (Total Trades: 7650)
+INFO:evolutionary_paper_trading_leverage:   DQN: 65 trades processed, loss=0.8598
+INFO:rl_agent_generator:🎓 A3C: policy_loss=0.8616, value_loss=4.0399, entropy=12.7677, valid=63/63
+INFO:evolutionary_paper_trading_leverage:   A3C: 63 trajectories trained, loss=2.8816
+INFO:rl_agent_generator:🔍 PPO: Processing 72 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 72 valid steps from 72 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=0.2768, critic_loss=0.9861, steps=72
+INFO:evolutionary_paper_trading_leverage:   PPO: 72 trajectories trained
+INFO:rl_state_manager:🏆 NEW BEST RL STATE! Score: 0.214 (↑ +0.014)
+INFO:evolutionary_paper_trading_leverage:💾 RL state saved after training (Score: 0.214)
+INFO:evolutionary_paper_trading_leverage:   ✅ Training completed in 0.12s
+INFO:evolutionary_paper_trading_leverage:================================================================================
+
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7451 closed: loss_aversion_exit | P&L: -20.48% @ 10.8x ($-20.48, funding: $0.0000)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: long_term | Agent 7510 | P&L: $-3.82 | Reward: -0.327
+INFO:rl_agent_generator:🔍 PPO: Processing 1 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 1 valid steps from 1 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=-0.0014, critic_loss=0.0001, steps=1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7510 closed: loss_aversion_exit | P&L: -3.82% @ 5.0x ($-3.82, funding: $0.0000)
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=35.0% × 0.66 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.045 → 0.083
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7453
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $9294.18
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $201.88
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $504.71
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7453
+INFO:evolutionary_paper_trading_leverage:   Utilization: 8.9%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7453 (short_term): SELL ETH @ $2942.0500 [10.7x, Liq: $3128.7808] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #1: Agent 7453 → ETH
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=35.0% × 0.76 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.037 → 0.190
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7491
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $9194.18
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $201.88
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $504.71
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7491
+INFO:evolutionary_paper_trading_leverage:   Utilization: 9.9%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7491 (long_term): BUY XRP @ $2.2534 [5.0x, Liq: $1.8704] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #2: Agent 7491 → XRP
+INFO:rl_agent_generator:🎯 RL FEEDBACK: short_term | Agent 7453 | P&L: $-15.32 | Reward: -0.419
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7453 closed: loss_aversion_exit | P&L: -15.32% @ 10.7x ($-15.32, funding: $0.0000)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: mid_term | Agent 7464 | P&L: $-17.88 | Reward: -0.437
+WARNING:rl_agent_generator:⚠️ A3C: Loss variance too high, using smoothed value
+INFO:rl_agent_generator:🎓 A3C: policy_loss=0.9015, value_loss=0.0357, entropy=12.7431, valid=1/1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7464 closed: loss_aversion_exit | P&L: -17.88% @ 9.8x ($-17.88, funding: $-0.0001)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: long_term | Agent 7491 | P&L: $-3.53 | Reward: -0.323
+INFO:rl_agent_generator:🔍 PPO: Processing 1 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 1 valid steps from 1 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=-0.0004, critic_loss=0.0000, steps=1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7491 closed: loss_aversion_exit | P&L: -3.53% @ 5.0x ($-3.53, funding: $0.0000)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: long_term | Agent 7499 | P&L: $-7.90 | Reward: -0.363
+INFO:rl_agent_generator:🔍 PPO: Processing 1 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 1 valid steps from 1 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=0.0352, critic_loss=0.0007, steps=1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7499 closed: loss_aversion_exit | P&L: -7.90% @ 5.0x ($-7.90, funding: $0.0001)
+INFO:evolutionary_paper_trading_leverage:   Cycle 10/20: 7655 new leveraged trades
+INFO:evolutionary_paper_trading_leverage:🎯 Agent 7454 [EXPLORATION]: Fitness=59.9 | WR=1/1 | P&L=$+7.47
+INFO:rl_agent_generator:🎯 RL FEEDBACK: short_term | Agent 7454 | P&L: $+7.47 | Reward: 0.412
+INFO:evolutionary_paper_trading_leverage:         🌟 BIG_WIN Agent 7454 closed: time_exit | P&L: +7.47% @ 10.8x ($+7.47, funding: $0.0001)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: mid_term | Agent 7461 | P&L: $-4.73 | Reward: -0.338
+INFO:rl_agent_generator:🎓 A3C: policy_loss=0.8400, value_loss=0.0308, entropy=12.7119, valid=1/1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7461 closed: loss_aversion_exit | P&L: -4.73% @ 9.8x ($-4.73, funding: $-0.0001)
+INFO:rl_state_manager:🏆 NEW BEST RL STATE! Score: 0.221 (↑ +0.007)
+INFO:evolutionary_paper_trading_leverage:🎯 Agent 7446 [EXPLORATION]: Fitness=65.6 | WR=1/1 | P&L=$+10.29
+INFO:rl_agent_generator:🎯 RL FEEDBACK: short_term | Agent 7446 | P&L: $+10.29 | Reward: 0.434
+INFO:evolutionary_paper_trading_leverage:         🌟 BIG_WIN Agent 7446 closed: time_exit | P&L: +10.29% @ 10.8x ($+10.29, funding: $0.0001)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: short_term | Agent 7450 | P&L: $-14.60 | Reward: -0.414
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7450 closed: loss_aversion_exit | P&L: -14.60% @ 10.8x ($-14.60, funding: $0.0001)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: long_term | Agent 7506 | P&L: $-8.96 | Reward: -0.371
+INFO:rl_agent_generator:🔍 PPO: Processing 1 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 1 valid steps from 1 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=0.0163, critic_loss=0.0003, steps=1
+INFO:evolutionary_paper_trading_leverage:
+================================================================================
+INFO:evolutionary_paper_trading_leverage:🎓 TRIGGERING RL TRAINING CHECKPOINT
+INFO:evolutionary_paper_trading_leverage:================================================================================
+INFO:evolutionary_paper_trading_leverage:   Trades since last update: 10
+INFO:evolutionary_paper_trading_leverage:   Total trades in system: 7660
+INFO:evolutionary_paper_trading_leverage:
+🎓 RL TRAINING CHECKPOINT (Total Trades: 7660)
+INFO:evolutionary_paper_trading_leverage:   DQN: 65 trades processed, loss=0.5712
+INFO:rl_agent_generator:🎓 A3C: policy_loss=0.6763, value_loss=4.0256, entropy=12.6753, valid=63/63
+INFO:evolutionary_paper_trading_leverage:   A3C: 63 trajectories trained, loss=2.6890
+INFO:rl_agent_generator:🔍 PPO: Processing 72 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 72 valid steps from 72 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=0.2766, critic_loss=0.9862, steps=72
+INFO:evolutionary_paper_trading_leverage:   PPO: 72 trajectories trained
+INFO:rl_state_manager:🏆 NEW BEST RL STATE! Score: 0.228 (↑ +0.007)
+INFO:evolutionary_paper_trading_leverage:💾 RL state saved after training (Score: 0.228)
+INFO:evolutionary_paper_trading_leverage:   ✅ Training completed in 0.12s
+INFO:evolutionary_paper_trading_leverage:================================================================================
+
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7506 closed: loss_aversion_exit | P&L: -8.96% @ 5.0x ($-8.96, funding: $0.0001)
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=21.6% × 0.66 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.045 → 0.092
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7471
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $9939.02
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $200.78
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $501.95
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 7471
+INFO:evolutionary_paper_trading_leverage:   Utilization: 2.0%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 7471 (mid_term): SELL BTC @ $87981.5000 [9.9x, Liq: $94272.5955] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #1: Agent 7471 → BTC
+INFO:rl_agent_generator:🎯 RL FEEDBACK: mid_term | Agent 7471 | P&L: $-6.19 | Reward: -0.349
+WARNING:rl_agent_generator:⚠️ A3C: Loss variance too high, using smoothed value
+INFO:rl_agent_generator:🎓 A3C: policy_loss=0.6697, value_loss=0.0202, entropy=12.6323, valid=1/1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7471 closed: loss_aversion_exit | P&L: -6.19% @ 9.9x ($-6.19, funding: $-0.0000)
+INFO:rl_agent_generator:🎯 RL FEEDBACK: long_term | Agent 7495 | P&L: $-6.92 | Reward: -0.355
+INFO:rl_agent_generator:🔍 PPO: Processing 1 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 1 valid steps from 1 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=-0.0036, critic_loss=0.0005, steps=1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 7495 closed: loss_aversion_exit | P&L: -6.92% @ 5.0x ($-6.92, funding: $0.0001)
+INFO:evolutionary_paper_trading_leverage:   Cycle 20/20: 7 new leveraged trades
+INFO:evolutionary_paper_trading_leverage:🎯 Agent 7212 [EXPLORATION]: Fitness=68.9 | WR=1/1 | P&L=$+11.93
+INFO:evolutionary_paper_trading_leverage:🎯 Agent 1 [MASTERY]: Fitness=68.0 | WR=147/222 | P&L=$+93.21
+INFO:evolutionary_paper_trading_leverage:🎯 Agent 2 [MASTERY]: Fitness=68.0 | WR=155/238 | P&L=$+58.94
+INFO:evolutionary_paper_trading_leverage:🎯 Agent 7440 [EXPLORATION]: Fitness=62.1 | WR=1/1 | P&L=$+8.57
+INFO:evolutionary_paper_trading_leverage:🎯 Agent 7445 [EXPLORATION]: Fitness=69.9 | WR=1/1 | P&L=$+12.46
+INFO:evolutionary_paper_trading_leverage:🎯 Agent 7446 [EXPLORATION]: Fitness=65.6 | WR=1/1 | P&L=$+10.29
+INFO:evolutionary_paper_trading_leverage:🎯 Agent 7454 [EXPLORATION]: Fitness=59.9 | WR=1/1 | P&L=$+7.47
+INFO:evolutionary_paper_trading_leverage:
+================================================================================
+INFO:evolutionary_paper_trading_leverage:💰 CENTRAL PORTFOLIO PERFORMANCE
+INFO:evolutionary_paper_trading_leverage:
+================================================================================
+INFO:evolutionary_paper_trading_leverage:   Total Capital: $10,025.90
+INFO:evolutionary_paper_trading_leverage:   Initial Capital: $90,000.00
+INFO:evolutionary_paper_trading_leverage:   Total Return: -88.86%
+INFO:evolutionary_paper_trading_leverage:   Compounding Multiplier: 0.111x
+INFO:evolutionary_paper_trading_leverage:
+INFO:evolutionary_paper_trading_leverage:   Available: $10,025.90
+INFO:evolutionary_paper_trading_leverage:   Allocated: $-0.00
+INFO:evolutionary_paper_trading_leverage:   Utilization: -0.0%
+INFO:evolutionary_paper_trading_leverage:
+INFO:evolutionary_paper_trading_leverage:   Total Trades: 7690
+INFO:evolutionary_paper_trading_leverage:   Cycles Completed: 92
+INFO:evolutionary_paper_trading_leverage:
+📊 CYCLE STATISTICS:
+INFO:evolutionary_paper_trading_leverage:   Total Cycles: 92
+INFO:evolutionary_paper_trading_leverage:   Avg Return/Cycle: -44.87%
+INFO:evolutionary_paper_trading_leverage:   Best Cycle: -0.98%
+INFO:evolutionary_paper_trading_leverage:   Worst Cycle: -88.00%
+INFO:evolutionary_paper_trading_leverage:   Sharpe Ratio: -1.87
+INFO:evolutionary_paper_trading_leverage:================================================================================
+
+INFO:evolutionary_paper_trading_leverage:
+📊 GENERATION 92 STATISTICS:
+INFO:evolutionary_paper_trading_leverage:   Total trades in system: 7662
+INFO:evolutionary_paper_trading_leverage:   Closed trades: 7662
+INFO:evolutionary_paper_trading_leverage:   Open trades: 0
+INFO:evolutionary_paper_trading_leverage:
+📊 BUY/SELL DISTRIBUTION (Last 100 trades):
+INFO:evolutionary_paper_trading_leverage:   BUY:   37 trades ( 37.0%)
+INFO:evolutionary_paper_trading_leverage:   SELL:  63 trades ( 63.0%)
+INFO:evolutionary_paper_trading_leverage:
+   By Market Regime:
+INFO:evolutionary_paper_trading_leverage:      ranging        : BUY   37%, SELL   63% (100 trades)
+INFO:evolutionary_paper_trading_leverage:
+📊 PERFORMANCE (Last 100 trades):
+INFO:evolutionary_paper_trading_leverage:   Win Rate (>0.2%): 4.0% (4 wins)
+INFO:evolutionary_paper_trading_leverage:   Positive P&L: 4.0% (4 trades)
+INFO:evolutionary_paper_trading_leverage:   P&L Range: -22.08% to 12.46%
+INFO:evolutionary_paper_trading_leverage:   Avg P&L: -9.3689%
+INFO:evolutionary_paper_trading_leverage:   Std Dev: 6.5720%
+INFO:evolutionary_paper_trading_leverage:   Distribution: 🌟4 🎯0 ✅0 ➖0 ⚠️0 ❌0 💥96
+INFO:evolutionary_paper_trading_leverage:
+⚡ LEVERAGE STATISTICS:
+INFO:evolutionary_paper_trading_leverage:   Avg Leverage: 8.4x
+INFO:evolutionary_paper_trading_leverage:   Liquidations: 0 (0.0%)
+INFO:evolutionary_paper_trading_leverage:
+💰 PORTFOLIO:
+INFO:evolutionary_paper_trading_leverage:   Total Capital: $10,025.90
+INFO:evolutionary_paper_trading_leverage:   Total P&L: $-79,974.10 (-88.86%)
+INFO:evolutionary_paper_trading_leverage:   Available: $10,025.90
+INFO:evolutionary_paper_trading_leverage:   Trades Executed: 7690
+INFO:evolutionary_paper_trading_leverage:
+📊 PERFORMANCE BY TIMEFRAME:
+INFO:evolutionary_paper_trading_leverage:   SHORT_TERM:
+INFO:evolutionary_paper_trading_leverage:     Trades: 34
+INFO:evolutionary_paper_trading_leverage:     Win Rate: 11.8% (4 wins)
+INFO:evolutionary_paper_trading_leverage:     P&L: $-382.92
+INFO:evolutionary_paper_trading_leverage:     Avg Leverage: 10.8x
+INFO:evolutionary_paper_trading_leverage:     Liquidations: 0
+INFO:evolutionary_paper_trading_leverage:   MID_TERM:
+INFO:evolutionary_paper_trading_leverage:     Trades: 29
+INFO:evolutionary_paper_trading_leverage:     Win Rate: 0.0% (0 wins)
+INFO:evolutionary_paper_trading_leverage:     P&L: $-341.31
+INFO:evolutionary_paper_trading_leverage:     Avg Leverage: 10.0x
+INFO:evolutionary_paper_trading_leverage:     Liquidations: 0
+INFO:evolutionary_paper_trading_leverage:   LONG_TERM:
+INFO:evolutionary_paper_trading_leverage:     Trades: 37
+INFO:evolutionary_paper_trading_leverage:     Win Rate: 0.0% (0 wins)
+INFO:evolutionary_paper_trading_leverage:     P&L: $-212.66
+INFO:evolutionary_paper_trading_leverage:     Avg Leverage: 5.0x
+INFO:evolutionary_paper_trading_leverage:     Liquidations: 0
+INFO:evolutionary_paper_trading_leverage:
+🏆 TOP 3 AGENTS BY TIMEFRAME:
+INFO:evolutionary_paper_trading_leverage:
+   SHORT-TERM:
+INFO:evolutionary_paper_trading_leverage:     #1 Agent 7445: Fitness=69.9 | WR=100.0% (1/1) | P&L=$+12.46
+INFO:evolutionary_paper_trading_leverage:     #2 Agent 7212: Fitness=68.9 | WR=100.0% (1/1) | P&L=$+11.93
+INFO:evolutionary_paper_trading_leverage:     #3 Agent 1: Fitness=68.0 | WR=66.2% (147/222) | P&L=$+93.21
+INFO:evolutionary_paper_trading_leverage:
+   MID-TERM:
+INFO:evolutionary_paper_trading_leverage:     #1 Agent 7054: Fitness=13.7 | WR=0.0% (0/1) | P&L=$-2.62
+INFO:evolutionary_paper_trading_leverage:     #2 Agent 6672: Fitness=13.7 | WR=0.0% (0/1) | P&L=$-2.63
+INFO:evolutionary_paper_trading_leverage:     #3 Agent 6589: Fitness=13.6 | WR=0.0% (0/1) | P&L=$-2.77
+INFO:evolutionary_paper_trading_leverage:
+   LONG-TERM:
+INFO:evolutionary_paper_trading_leverage:     #1 Agent 7080: Fitness=19.7 | WR=0.0% (0/3) | P&L=$-10.60
+INFO:evolutionary_paper_trading_leverage:     #2 Agent 7340: Fitness=13.7 | WR=0.0% (0/1) | P&L=$-2.61
+INFO:evolutionary_paper_trading_leverage:     #3 Agent 7502: Fitness=13.7 | WR=0.0% (0/1) | P&L=$-2.65
+INFO:rl_state_manager:💾 RL state saved (FORCED) - Score: 0.228
+INFO:evolutionary_paper_trading_leverage:✅ Population evolved to generation 93
+INFO:evolutionary_paper_trading_leverage:   Elite agents carried over: 9
+INFO:evolutionary_paper_trading_leverage:   New population size: 90
+INFO:evolutionary_paper_trading_leverage:   Short-term: 30
+INFO:evolutionary_paper_trading_leverage:   Mid-term: 30
+INFO:evolutionary_paper_trading_leverage:   Long-term: 30
+INFO:evolutionary_paper_trading_leverage:   Top agent: ID 7445, Fitness: 69.9
+INFO:rl_state_manager:💾 RL state saved (FORCED) - Score: 0.228
+INFO:evolutionary_paper_trading_leverage:💾 End-of-generation RL state saved (Score: 0.228)
+INFO:evolutionary_paper_trading_leverage:📊 Generation 92 completed - RL Trend: learning, Best Score: 0.228
+INFO:meta_rl_enhanced2:
+🧠 META-UPDATE V5 TRIGGERED
+INFO:meta_rl_enhanced2:   Last 50 trades: 50 trades
+INFO:meta_rl_enhanced2:   Overall Win Rate: 0.0%
+INFO:meta_rl_enhanced2:   Total P&L: $-384.88
+INFO:meta_rl_enhanced2:   Sharpe: -10.00
+INFO:meta_rl_enhanced2:   Evolutionary Trades: 163120
+INFO:meta_rl_enhanced2:   SHORT_TERM: 13 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   MID_TERM: 12 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   LONG_TERM: 25 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   💡 Weak short_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Weak mid_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Weak long_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Evolutionary training: 400.4 trades/hour
+INFO:meta_rl_enhanced2:
+🧠 META-UPDATE V5 TRIGGERED
+INFO:meta_rl_enhanced2:   Last 50 trades: 50 trades
+INFO:meta_rl_enhanced2:   Overall Win Rate: 0.0%
+INFO:meta_rl_enhanced2:   Total P&L: $-450.28
+INFO:meta_rl_enhanced2:   Sharpe: -10.00
+INFO:meta_rl_enhanced2:   Evolutionary Trades: 163130
+INFO:meta_rl_enhanced2:   SHORT_TERM: 17 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   MID_TERM: 13 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   LONG_TERM: 20 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   💡 Weak short_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Weak mid_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Weak long_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Evolutionary training: 400.4 trades/hour
+INFO:meta_rl_enhanced2:
+🧠 META-UPDATE V5 TRIGGERED
+INFO:meta_rl_enhanced2:   Last 50 trades: 50 trades
+INFO:meta_rl_enhanced2:   Overall Win Rate: 0.0%
+INFO:meta_rl_enhanced2:   Total P&L: $-477.06
+INFO:meta_rl_enhanced2:   Sharpe: -10.00
+INFO:meta_rl_enhanced2:   Evolutionary Trades: 163140
+INFO:meta_rl_enhanced2:   SHORT_TERM: 16 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   MID_TERM: 13 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   LONG_TERM: 21 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   💡 Weak short_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Weak mid_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Weak long_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Evolutionary training: 400.5 trades/hour
+INFO:meta_rl_enhanced2:
+🧠 META-UPDATE V5 TRIGGERED
+INFO:meta_rl_enhanced2:   Last 50 trades: 50 trades
+INFO:meta_rl_enhanced2:   Overall Win Rate: 0.0%
+INFO:meta_rl_enhanced2:   Total P&L: $-531.20
+INFO:meta_rl_enhanced2:   Sharpe: -10.00
+INFO:meta_rl_enhanced2:   Evolutionary Trades: 163150
+INFO:meta_rl_enhanced2:   SHORT_TERM: 21 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   MID_TERM: 12 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   LONG_TERM: 17 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   💡 Weak short_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Weak mid_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Weak long_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Evolutionary training: 400.5 trades/hour
+INFO:meta_rl_enhanced2:
+🧠 META-UPDATE V5 TRIGGERED
+INFO:meta_rl_enhanced2:   Last 50 trades: 50 trades
+INFO:meta_rl_enhanced2:   Overall Win Rate: 0.0%
+INFO:meta_rl_enhanced2:   Total P&L: $-538.92
+INFO:meta_rl_enhanced2:   Sharpe: -10.00
+INFO:meta_rl_enhanced2:   Evolutionary Trades: 163160
+INFO:meta_rl_enhanced2:   SHORT_TERM: 19 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   MID_TERM: 16 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   LONG_TERM: 15 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   💡 Weak short_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Weak mid_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Weak long_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Evolutionary training: 400.5 trades/hour
+INFO:meta_rl_enhanced2:
+🧠 META-UPDATE V5 TRIGGERED
+INFO:meta_rl_enhanced2:   Last 50 trades: 50 trades
+INFO:meta_rl_enhanced2:   Overall Win Rate: 0.0%
+INFO:meta_rl_enhanced2:   Total P&L: $-547.12
+INFO:meta_rl_enhanced2:   Sharpe: -10.00
+INFO:meta_rl_enhanced2:   Evolutionary Trades: 163170
+INFO:meta_rl_enhanced2:   SHORT_TERM: 15 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   MID_TERM: 19 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   LONG_TERM: 16 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   💡 Weak short_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Weak mid_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Weak long_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Evolutionary training: 400.5 trades/hour
+INFO:meta_rl_enhanced2:
+🧠 META-UPDATE V5 TRIGGERED
+INFO:meta_rl_enhanced2:   Last 50 trades: 50 trades
+INFO:meta_rl_enhanced2:   Overall Win Rate: 0.0%
+INFO:meta_rl_enhanced2:   Total P&L: $-511.81
+INFO:meta_rl_enhanced2:   Sharpe: -10.00
+INFO:meta_rl_enhanced2:   Evolutionary Trades: 163180
+INFO:meta_rl_enhanced2:   SHORT_TERM: 12 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   MID_TERM: 19 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   LONG_TERM: 19 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   💡 Weak short_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Weak mid_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Weak long_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Evolutionary training: 400.6 trades/hour
+INFO:meta_rl_enhanced2:
+🧠 META-UPDATE V5 TRIGGERED
+INFO:meta_rl_enhanced2:   Last 50 trades: 50 trades
+INFO:meta_rl_enhanced2:   Overall Win Rate: 4.0%
+INFO:meta_rl_enhanced2:   Total P&L: $-480.00
+INFO:meta_rl_enhanced2:   Sharpe: -10.00
+INFO:meta_rl_enhanced2:   Evolutionary Trades: 163190
+INFO:meta_rl_enhanced2:   SHORT_TERM: 15 trades, 13.3% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   MID_TERM: 16 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   LONG_TERM: 19 trades, 0.0% WR, Sharpe: -10.00
+INFO:meta_rl_enhanced2:   💡 Weak short_term performance (13% WR)
+INFO:meta_rl_enhanced2:   💡 Weak mid_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Weak long_term performance (0% WR)
+INFO:meta_rl_enhanced2:   💡 Evolutionary training: 400.6 trades/hour
+INFO:__main__:🔄 Fed 81 new LEVERAGED trades to Meta-RL
+
+
+
+
+
+⏰ TIMEFRAME PERFORMANCE:
+INFO:__main__:================================================================================
+INFO:__main__:
+🧬 EVOLUTIONARY STATUS:
+INFO:__main__:   Generation: 93
+INFO:__main__:   Avg Leverage: 0.0x
+INFO:__main__:   Active Trades: 0
+INFO:__main__:================================================================================
+INFO:rl_state_manager:✅ DQN loaded: 6088 mappings, epsilon=0.150, update_counter=11187, memory_size=152, target_updates=223
+INFO:rl_state_manager:📊 DQN Best Archetype: 4 (PnL: $-3688.45, Wins: 373)
+INFO:rl_state_manager:✅ A3C loaded: entropy_coef=0.0010, steps=3956, lr=1.00e-05, grad_clip=0.050, explosion_count=2
+INFO:rl_state_manager:📊 A3C Recent Loss: avg=1.2992, latest=0.6798
+INFO:rl_state_manager:✅ PPO loaded: 275/275 active agents, clip_epsilon=0.20
+INFO:rl_state_manager:📊 PPO Best Agent: 3355 (PnL: $2.45, sell_ratio=0.00)
+INFO:rl_state_manager:📊 PPO Sell-capable agents: 0/275 (0.0%)
+INFO:rl_state_manager:📊 Metadata loaded (Score: 0.228)
+INFO:rl_state_manager:🎉 RL state loaded successfully!
+INFO:evolutionary_paper_trading_leverage:🧬 Starting Generation 93 with BEST RL State (Score: 0.228)
+INFO:evolutionary_paper_trading_leverage:
+================================================================================
+INFO:evolutionary_paper_trading_leverage:🔄 CYCLE 93 STARTED
+INFO:evolutionary_paper_trading_leverage:================================================================================
+INFO:evolutionary_paper_trading_leverage:   Total Capital: $10,025.90
+INFO:evolutionary_paper_trading_leverage:   Available: $10,025.90
+INFO:evolutionary_paper_trading_leverage:   Portfolio Return: -88.86%
+INFO:evolutionary_paper_trading_leverage:   Trades Last Cycle: 7690
+INFO:evolutionary_paper_trading_leverage:================================================================================
+
+INFO:fixed_hyperliquid:🔍 Fetching complete market data for BTC...
+INFO:fixed_hyperliquid:🔍 Fetching complete market data for ETH...
+INFO:fixed_hyperliquid:🔍 Fetching complete market data for SOL...
+INFO:fixed_hyperliquid:🔍 Fetching complete market data for BNB...
+INFO:fixed_hyperliquid:🔍 Fetching complete market data for XRP...
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=21.6% × 0.66 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.045 → 0.090
+INFO:evolutionary_paper_trading_leverage:
+💰 ALLOCATION REQUEST: Agent 7540
+
+
+
+💰 ALLOCATION REQUEST: Agent 288
+INFO:evolutionary_paper_trading_leverage:   Requested: $90.00
+INFO:evolutionary_paper_trading_leverage:   Available: $83915.22
+INFO:evolutionary_paper_trading_leverage:   Max Trade: $1738.30
+INFO:evolutionary_paper_trading_leverage:   Max Agent: $4345.76
+INFO:evolutionary_paper_trading_leverage:   ⚡ FORCING minimum size: $100.00
+INFO:evolutionary_paper_trading_leverage:✅ GUARANTEED ALLOCATION: $100.00 to Agent 288
+INFO:evolutionary_paper_trading_leverage:   Utilization: 3.6%
+INFO:evolutionary_paper_trading_leverage:   Agent Total: $100.00
+INFO:evolutionary_paper_trading_leverage:      🔹 Agent 288 (long_term): BUY SOL @ $137.4150 [15.0x, Liq: $132.3765] Size: $100.00
+INFO:evolutionary_paper_trading_leverage:   ✅ Trade #15: Agent 288 → SOL
+INFO:evolutionary_paper_trading_leverage:✅ Cycle limit reached: 15/15
+INFO:evolutionary_paper_trading_leverage:
+================================================================================
+INFO:evolutionary_paper_trading_leverage:📊 CYCLE EXECUTION SUMMARY
+INFO:evolutionary_paper_trading_leverage:
+================================================================================
+INFO:evolutionary_paper_trading_leverage:   Trades Executed: 15/15
+INFO:evolutionary_paper_trading_leverage:   Active Agents: 15
+INFO:evolutionary_paper_trading_leverage:   Assets Traded: 1
+INFO:evolutionary_paper_trading_leverage:================================================================================
+
+ERROR:rl_agent_generator:❌ Trade feedback failed: 'RLAgentCoordinator' object has no attribute '_build_market_structure'
+Traceback (most recent call last):
+  File "/mnt/c/Users/swapn/downloads/deepseek_crypto_bot/V4.4.0/rl_agent_generator.py", line 1504, in feedback_trade_result
+    next_market_structure = self._build_market_structure()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RLAgentCoordinator' object has no attribute '_build_market_structure'
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 236 closed: loss_aversion_exit | P&L: -16.83% @ 15.0x ($-16.83, funding: $0.0000)
+ERROR:rl_agent_generator:❌ Trade feedback failed: 'RLAgentCoordinator' object has no attribute '_build_market_structure'
+Traceback (most recent call last):
+  File "/mnt/c/Users/swapn/downloads/deepseek_crypto_bot/V4.4.0/rl_agent_generator.py", line 1504, in feedback_trade_result
+    next_market_structure = self._build_market_structure()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RLAgentCoordinator' object has no attribute '_build_market_structure'
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 243 closed: loss_aversion_exit | P&L: -22.48% @ 15.0x ($-22.48, funding: $0.0000)
+ERROR:rl_agent_generator:❌ Trade feedback failed: 'RLAgentCoordinator' object has no attribute '_build_market_structure'
+Traceback (most recent call last):
+  File "/mnt/c/Users/swapn/downloads/deepseek_crypto_bot/V4.4.0/rl_agent_generator.py", line 1504, in feedback_trade_result
+    next_market_structure = self._build_market_structure()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RLAgentCoordinator' object has no attribute '_build_market_structure'
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 246 closed: loss_aversion_exit | P&L: -15.40% @ 15.0x ($-15.40, funding: $0.0000)
+INFO:rl_agent_generator:🎓 A3C: policy_loss=0.2729, value_loss=0.0023, entropy=13.1803, valid=1/1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 250 closed: loss_aversion_exit | P&L: -6.90% @ 15.0x ($-6.90, funding: $0.0000)
+INFO:rl_agent_generator:🎓 A3C: policy_loss=0.1896, value_loss=0.0012, entropy=13.1771, valid=1/1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 255 closed: loss_aversion_exit | P&L: -7.96% @ 15.0x ($-7.96, funding: $0.0000)
+INFO:rl_agent_generator:🎓 A3C: policy_loss=0.0792, value_loss=0.0003, entropy=13.1671, valid=1/1
+INFO:evolutionary_paper_trading_leverage:
+================================================================================
+INFO:evolutionary_paper_trading_leverage:🎓 TRIGGERING RL TRAINING CHECKPOINT
+INFO:evolutionary_paper_trading_leverage:================================================================================
+INFO:evolutionary_paper_trading_leverage:   Trades since last update: 10
+INFO:evolutionary_paper_trading_leverage:   Total trades in system: 230
+INFO:evolutionary_paper_trading_leverage:
+🎓 RL TRAINING CHECKPOINT (Total Trades: 230)
+INFO:evolutionary_paper_trading_leverage:   DQN: 91 trades processed, loss=0.5372
+INFO:rl_agent_generator:🎓 A3C: policy_loss=-0.0653, value_loss=4.0000, entropy=13.1491, valid=69/69
+INFO:evolutionary_paper_trading_leverage:   A3C: 69 trajectories trained, loss=1.9348
+INFO:rl_agent_generator:🔍 PPO: Processing 40 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 40 valid steps from 40 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=0.2976, critic_loss=0.9750, steps=40
+INFO:evolutionary_paper_trading_leverage:   PPO: 40 trajectories trained
+INFO:rl_state_manager:💾 RL state saved (FORCED) - Score: 0.200
+INFO:evolutionary_paper_trading_leverage:💾 RL state saved after training (Score: 0.200)
+INFO:evolutionary_paper_trading_leverage:   ✅ Training completed in 0.12s
+INFO:evolutionary_paper_trading_leverage:================================================================================
+
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 266 closed: loss_aversion_exit | P&L: -18.80% @ 15.0x ($-18.80, funding: $0.0000)
+INFO:rl_agent_generator:🔍 PPO: Processing 1 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 1 valid steps from 1 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=0.0067, critic_loss=0.0000, steps=1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 275 closed: loss_aversion_exit | P&L: -17.59% @ 15.0x ($-17.59, funding: $0.0000)
+INFO:rl_agent_generator:🔍 PPO: Processing 1 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 1 valid steps from 1 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=-0.0038, critic_loss=0.0006, steps=1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 279 closed: loss_aversion_exit | P&L: -11.71% @ 15.0x ($-11.71, funding: $0.0000)
+INFO:rl_agent_generator:🔍 PPO: Processing 1 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 1 valid steps from 1 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=0.0064, critic_loss=0.0005, steps=1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 280 closed: loss_aversion_exit | P&L: -14.93% @ 15.0x ($-14.93, funding: $0.0000)
+INFO:rl_agent_generator:🔍 PPO: Processing 1 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 1 valid steps from 1 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=-0.0012, critic_loss=0.0001, steps=1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 281 closed: loss_aversion_exit | P&L: -10.46% @ 15.0x ($-10.46, funding: $0.0000)
+INFO:rl_agent_generator:🔍 PPO: Processing 1 trajectories...
+INFO:rl_agent_generator:📊 PPO: Collected 1 valid steps from 1 trajectories
+INFO:rl_agent_generator:🎓 PPO: actor_loss=0.0489, critic_loss=0.0011, steps=1
+INFO:evolutionary_paper_trading_leverage:         💥 BIG_LOSS Agent 287 closed: loss_aversion_exit | P&L: -19.79% @ 15.0x ($-19.79, funding: $0.0000)
+INFO:evolutionary_paper_trading_leverage:   💰 GUARANTEED SIZE: $90.00 (base=20.7% × 0.99 confidence)
+INFO:evolutionary_paper_trading_leverage:   🔧 Safety adjustment: stop 0.025 → 0.057
+INFO:evolutionary_paper_trading_leverage:

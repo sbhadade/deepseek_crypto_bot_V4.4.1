@@ -1,0 +1,24 @@
+# RL Trading Bot v3.0 - Requirements
+# Python 3.9+
+
+# AI/ML
+openai>=1.12.0              # DeepSeek API client
+numpy>=1.24.0               # Numerical computing
+
+# Blockchain - Solana
+solana>=0.30.0              # Solana Python SDK
+solders>=0.18.0             # Solana types (Rust bindings)
+base58>=2.1.1               # Base58 encoding
+
+# Blockchain - Ethereum/Arbitrum (Hyperliquid)
+eth-account>=0.10.0         # Ethereum account management
+web3>=6.15.0                # Web3 interactions
+eth-utils>=2.3.0            # Ethereum utilities
+
+# HTTP & Data
+requests>=2.31.0            # HTTP requests
+python-dotenv>=1.0.0        # Environment variables
+
+# Optional but recommended
+pandas>=2.0.0               # Data analysis (for advanced features)
+matplotlib>=3.7.0           # Plotting (for performance visualization)
